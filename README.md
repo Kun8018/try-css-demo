@@ -1,3 +1,3 @@
 # try-css-demo
 
-a repo putting my small try with css
+a repo putting my small demo with css

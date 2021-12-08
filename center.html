@@ -1,0 +1,61 @@
+<html>
+<head>
+    <style type="text/css">
+        .box {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .first-box {
+            width: 50%;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: azure;
+        }
+        .first-box .first-item{
+            margin: 50px;
+            background-color: beige;
+        }
+        .second-box {
+            width: 50%;
+            height: 300px;
+            background-color: azure;
+            position: relative;
+        }
+        .second-box .second-item {
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="first-box">
+            <div class="first-item">
+                first-box
+            </div>
+        </div>
+        <div class="second-box">
+            <div class="second-item"> 
+                second-box
+            </div>
+        </div>
+        <div class="third-box">
+            <div class="second-item"> 
+                second-box
+            </div>
+        </div>
+        <div class="fourth-box">
+            <div class="second-item"> 
+                second-box
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
